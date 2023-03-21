@@ -1,5 +1,11 @@
 # JSMAPObjectArrayKeys 
-JavaScript this is really amazing to know that we can assigned a key in arrays of data in object
+JavaScript this is really amazing to know that we can assigned a key in arrays of data in object.
+<br />You can also convert object to Map;
+<br />const objData = { ... }
+<br />const mapJS = new Map(objData);
+<br />
+<br />console.log(mapJS);
+<br />....
 
 ```JS
 // new Map();
