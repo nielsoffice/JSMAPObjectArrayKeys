@@ -29,3 +29,32 @@ console.log(keys.get('key2'));
  [[Prototype]]: Map
  k2 is string! 
 ```
+
+```JS
+// Demo 2
+const datas = new Map([
+  ['one-key','This is one value'],
+  ['two-key','This is two value'],
+  ['three-key','This is three value'],
+  ['four-key','This is four value'],
+  ['five-key','This is five value'],
+
+]);
+
+console.log(datas);
+```
+
+```JS
+// Console.log | Result 
+Map(5) { 'one-key'   => 'This is one value',   'two-key'  => 'This is two value', 
+         'three-key' => 'This is three value', 'four-key' => 'This is four value', 
+         'five-key' => 'This is five value'}
+[[Entries]]
+  0 : {"one-key" => "This is one value"}
+  1 : {"two-key" => "This is two value"}
+  2 : {"three-key" => "This is three value"}
+  3 : {"four-key" => "This is four value"}
+  4 : {"five-key" => "This is five value"}
+ size : 5
+[[Prototype]] : Map
+```
