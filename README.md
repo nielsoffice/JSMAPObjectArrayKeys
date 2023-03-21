@@ -45,7 +45,7 @@ console.log(datas);
 ```
 
 ```JS
-// Console.log | Result 
+// Console.log() | Result 
 Map(5) { 'one-key'   => 'This is one value',   'two-key'  => 'This is two value', 
          'three-key' => 'This is three value', 'four-key' => 'This is four value', 
          'five-key' => 'This is five value'}
