@@ -64,3 +64,11 @@ Map(5) { 'one-key'   => 'This is one value',   'two-key'  => 'This is two value'
  size : 5
 [[Prototype]] : Map
 ```
+
+```JS
+// Get the values of new MAP([ .... ])
+console.log(datas.values());
+
+// Get the keys of new MAP([ .... ])
+console.log(datas.keys());
+```
